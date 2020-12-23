@@ -1,37 +1,105 @@
+
 /********************************** TAG SELECTORS ************************************/
 
 body {
-    background-color: #f1f6f9;;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
+
+h1 {
+    color: #f73859;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #272343;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 auto 50px auto;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #14274e;
+    
+}
+
 hr {
-    background-color: white;
+    background-color:#EAF6F6;
     border-style: none;
     border-top-style: dotted;
     border-color: grey;
     border-width: 5px;
+    margin: 100px auto 100px auto;
     width: 5%;
 }
 
-h1 {
-    color: #14274e;
+p {
+    margin: 0 auto 0 auto;
+    color: #40514E;
+    font-family: 'Merriweather', sans-serif;
 }
 
-h3 {
-    color: #14274e;
+a {
+    color: #394867;
 }
 
-/********************************** CLASS SELECTORS ************************************/
-
-.image_profile {
-    background-color: white;
+.top_container {
+    background-color: #e3f6f5;
+    position: relative;
+    padding-top: 100px;
 }
 
-.circular {
-    border-radius: 100%;
+.middle_container {
 }
 
-/********************************** ID SELECTORS ************************************/
+.profile_description {
+    line-height: 2;
+    width: 40%;
+}
 
-#heading {
-    color: red;
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.bottom_container {
+    background-color: #f1f6f9;
+}
+
+.top_cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom_cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.profile_image {
+    margin: 100px auto 50px auto;
+    width: 15%;
+
+}
+
+.skill_image_1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill_image_2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
